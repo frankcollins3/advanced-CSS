@@ -1,0 +1,56 @@
+.container {
+    background-color: cornflowerblue;
+    height: 300px; 
+    width: 300px; 
+    border: 2px solid blue; 
+    transform: rotate(220deg);
+}
+.container2 {
+    background-color: palevioletred;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+container:hover {
+    background-color: orange;
+    transform: rotate(-35deg);
+}
+ @media (max-width: 600px) { 
+    .container {
+        background-color: purple;
+        transform: rotate(-60deg);
+    }
+}
+ @media (max-width: 550px) { 
+    .container {
+        background-color: cornflowerblue;
+        transform: rotate(-60deg);
+        height: 280px;
+        width: 280px;
+    }
+}
+ @media (max-width: 500px) { xs
+    .container {
+        background-color: purple;
+        transform: rotate(-90deg);
+        height: 260px;
+        width: 260px; 
+    }
+}
+    .container {
+        background-color: black;;
+        transform: rotate(145deg);
+
+    }
+    .container2:hover {
+        background-color: yellow;
+        cursor: pointer;
+    }
+    .container:hover {
+     background-color: blue;
+     cursor: pointer; 
+    }
+
+}
